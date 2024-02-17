@@ -1,11 +1,40 @@
 body {
     background-color: #000;
     color: #fff;
+    font-family: "DM Sans", sans-serif;
 }
 
 a {
     text-decoration: none;
     color: #fff;
+}
+
+h2 {
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 1em;
+    border-bottom: 3px dotted #fff;
+    padding-bottom: .3em;
+}
+
+h3 {
+    font-family: "DM Serif Display", serif;
+}
+
+h4 {
+    font-family: "DM Serif Display", serif;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px dotted #fff;
+    padding-bottom: .3em;
+    margin-top: 1em;
+}
+
+p i {
+    font-size: 12px;
+} 
+
+li {
+    margin-bottom: .7em;
 }
 
 section.hero {
@@ -29,6 +58,7 @@ section.hero {
     text-align: center;
     top: 3em;
     filter: drop-shadow(0 0 1rem #000);
+    font-family: "DM Serif Display", serif;
 }
 
 .hero h2 {
@@ -37,6 +67,7 @@ section.hero {
     text-align: center;
     top: 6em;
     margin-bottom: 2em;
+    font-family: "DM Serif Display", serif;
 }
 
 section {
@@ -44,16 +75,34 @@ section {
 }
 
 .section-one {
-   
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.section-one img {
-    width: 50%;
+.section-one h2 {
+    font-family: "DM Serif Display", serif;
 }
 
+.info {
+    width: 60%;
+}
+
+.media {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.media img {
+    width: 100%;
+}
+
+/* BOOTSTRAP ACCORDION: */
 
        .dark-accordion {
-            width: 50%;
+            width: 100%;
         }
 
         .dark-accordion .accordion-item {
@@ -62,7 +111,7 @@ section {
         }
 
         .dark-accordion .accordion-button {
-            background-color: #333; /* Darker button color */
+            background-color: #1d1d1d; /* Darker button color */
             color: #fff;
 
         }
@@ -80,7 +129,7 @@ section {
         }
 
         .dark-accordion .accordion-body {
-            background-color: #333; /* Darker body color */
+            background-color: #1d1d1d; /* Darker body color */
         }
 
 
