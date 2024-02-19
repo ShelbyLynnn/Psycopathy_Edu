@@ -41,7 +41,7 @@ section.hero {
     width: 100%;
     height: 30em;
     margin: 4em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(/psycopathy_edu/images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(/images/hero.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: #000;
