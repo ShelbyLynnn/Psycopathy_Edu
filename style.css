@@ -9,11 +9,16 @@ a {
     color: #fff;
 }
 
+.navbar-brand {
+    font-family: "DM Serif Display", serif;
+}
+
 h2 {
     font-family: "DM Serif Display", serif;
     margin-bottom: 1em;
     border-bottom: 3px dotted #fff;
     padding-bottom: .3em;
+    text-align: center;
 }
 
 h3 {
@@ -41,7 +46,7 @@ section.hero {
     width: 100%;
     height: 30em;
     margin: 4em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(/images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../images/hero.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: #000;
@@ -75,7 +80,7 @@ section {
     margin-bottom: 6em;
 }
 
-.section-one , .section-two {
+.section-one , .section-two , .section-three {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -147,16 +152,42 @@ footer {
     padding: 1em;
 }
 
+
+/* 
+MEDIA QUERIES ----------------------------------- */
+
 @media screen and (max-width: 1000px) {
     .section-one {
         flex-wrap: wrap;
     }
 
-    .section-one.info {
+    .media {
+        order: 1;
+        width: 80%;
+    }
+
+    .info {
         order: 2;
+        width: 100%;
     }
 
     .section-two {
         flex-wrap: wrap;
+    }
+
+    .section-three {
+        flex-wrap: wrap;
+    }
+
+    .section-three.media {
+        order: 1;
+    }
+
+    .hero h1 {
+        top: 2em;  
+    }
+    
+    .hero h2 {
+        top: 5em;
     }
 }
